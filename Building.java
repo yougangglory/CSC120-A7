@@ -84,7 +84,7 @@ public class Building {
     }
 
     public void showOptions() {
-        System.out.println("Available options at " + this.name + ":\n + enter() \n + exit() \n + goUp() \n + goDown()\n + goToFloor(n)");
+        System.out.println("Available options at " + this.name   + ":\n + enter() \n + exit() \n + goUp() \n + goDown()\n + goToFloor(n)" );
     }
 
     public String toString() {
@@ -96,7 +96,7 @@ public class Building {
         System.out.println("Test of Building constructor/methods");
         System.out.println("------------------------------------");
         
-        Building fordHall = new Building("Ford Hall", "100 Green Street Northampton, MA 01063", 4);
+        Building fordHall = new Building("Ford Hall", "100 Green Street Northampton, MA 01063",4);
         System.out.println(fordHall);
         fordHall.showOptions();
 
@@ -110,3 +110,4 @@ public class Building {
     }
 
 }
+
