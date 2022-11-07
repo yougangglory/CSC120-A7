@@ -116,7 +116,7 @@ public class House extends Building {
       // Laurascales.showOptions();
       //System.out.println((Laurascales.gethasElevator);
       Laurascales.enter();
-       Laurascales.sethasElevator(false);
+       Laurascales.sethasElevator(true);
        
        Laurascales.goToFloor(2);
        

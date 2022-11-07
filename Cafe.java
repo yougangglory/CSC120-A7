@@ -94,8 +94,8 @@ public class Cafe extends Building {
     public static void main(String[] args) {
        Cafe SmithCafe= new Cafe("SmithCafe","100 Elm street");
        System.out.println(SmithCafe);
-      // SmithCafe.sellCoffee(20, 0, 6);
-      // SmithCafe.sellCoffee(100, 5, 3);
+      //SmithCafe.sellCoffee(20, 0, 6);
+      //SmithCafe.sellCoffee(100, 5, 3);
       SmithCafe.enter();
       SmithCafe.sethasElevator(true);  
        SmithCafe.goToFloor(1);
